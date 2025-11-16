@@ -44,7 +44,7 @@ public class BankingApp {
     	
 /*     ***replace above code from line 15 to 28 by below*****	
  *      
- *      String url ="your own url"; 
+ *      String url ="your own url like jdbc localhost..."; 
     	String username ="your username like root"; 
     	String password ="your password loke root"; 
     	
