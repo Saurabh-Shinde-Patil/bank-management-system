@@ -72,8 +72,9 @@ public class BankingApp {
             long account_number;
 
             while(true){
+            	System.out.println();
                 System.out.println("*** WELCOME TO THE SS BANKING SYSTEM ***");
-                System.out.println();
+                
                 System.out.println("1. Register");
                 System.out.println("2. Login");
                 System.out.println("3. Exit");
@@ -135,6 +136,8 @@ public class BankingApp {
                                         accountManager.updateAccount(account_number);
                                         break;        
                                     case 7:
+                                    	System.out.println("THANK YOU FOR USING BANKING SYSTEM!!!");
+                                        System.out.println("Exiting System!");
                                         break;
                                     default:
                                         System.out.println("Enter Valid Choice!");
@@ -145,6 +148,7 @@ public class BankingApp {
                         }
                         else{
                             System.out.println("Incorrect Email or Password!");
+                            System.out.println("THANK YOU FOR USING BANKING SYSTEM!!!");
                             
                         }
                         break;
